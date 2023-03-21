@@ -94,3 +94,32 @@ p {
 a.text-body-tertiary:hover {
     color: var(--primary-color) !important;
 }
+
+@media (max-width: 766px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2,h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .mobile-btn {
+        text-align: center;
+    }
+
+    p.mobile {
+        margin-top: 10px;
+    }
+
+    h2.mobile {
+        margin-top: 40px;
+    }
+
+}
